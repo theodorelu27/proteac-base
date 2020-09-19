@@ -1,0 +1,33 @@
+<div class="current-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 class="mt-5">BS Battle Club First Online Meeting {{ !isLoggedIn }} {{ !isRegistered }}</h1>
+        <div *ngIf="!isLoggedIn">
+          <p>
+            Email:
+            <input placeholder="youremail@example.com"/>
+          </p>
+          <a class="btn btn-success" target=”_blank” href="" role="button">Join</a>
+        </div>
+        <div *ngIf="isLoggedIn && !isRegistered">
+          <p>
+            Username:
+            <input placeholder="John Doe"/>
+          </p>
+          <a class="btn btn-success" target=”_blank” href="" role="button">Register</a>
+          <br>
+          *Username cannot be changed
+        </div>
+        <div *ngIf="isLoggedIn && isRegistered">
+          <p>
+            Username: {{user.name}}
+          </p>
+          <a class="btn btn-success" target=”_blank” href="" role="button">Register</a>
+          <br>
+          *Username cannot be changed
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
