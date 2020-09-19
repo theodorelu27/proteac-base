@@ -57,7 +57,7 @@
                 }
               ],
               "assets": [
-                "favicon.ico",
+                "src/favicon.ico",
                 "assets"
               ],
             },
