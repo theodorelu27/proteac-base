@@ -7,6 +7,6 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'proteac-base';
+  title = 'proteac';
   faCoffee = faCoffee;
 }

@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { TtgComponent } from './pages/ttg/ttg.component';
 import { BbcComponent } from './pages/bbc/bbc.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -19,6 +20,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
+    CommonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

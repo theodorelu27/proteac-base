@@ -8,9 +8,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventsComponent implements OnInit {
 
-  user: User = null;
-  public isLoggedIn: boolean = false;
-  public isRegistered: boolean = false;
 
   constructor() {
   }

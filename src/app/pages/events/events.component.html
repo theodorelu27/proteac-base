@@ -1,32 +1,51 @@
+
 <div class="current-bg">
+</div>
+<div class="long-content mb-5">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <h1 class="mt-5">BS Battle Club First Online Meeting {{ !isLoggedIn }} {{ !isRegistered }}</h1>
-        <div *ngIf="!isLoggedIn">
-          <p>
-            Email:
-            <input placeholder="youremail@example.com"/>
-          </p>
-          <a class="btn btn-success" target=”_blank” href="" role="button">Join</a>
-        </div>
-        <div *ngIf="isLoggedIn && !isRegistered">
-          <p>
-            Username:
-            <input placeholder="John Doe"/>
-          </p>
-          <a class="btn btn-success" target=”_blank” href="" role="button">Register</a>
-          <br>
-          *Username cannot be changed
-        </div>
-        <div *ngIf="isLoggedIn && isRegistered">
-          <p>
-            Username: {{user.name}}
-          </p>
-          <a class="btn btn-success" target=”_blank” href="" role="button">Register</a>
-          <br>
-          *Username cannot be changed
-        </div>
+        <p class="mt-5">
+          Welcome to BS Battle Club's first organized online meeting!<br>
+          This is a casual event where we had fun and learn to be better at Battle Spirits together!
+        </p>
+        <h2>Time and Place</h2>
+        <table class="table">
+          <tr>
+            <th scope="col">Date</th>
+            <td>Friday, 25 September 2020</td>
+          </tr>
+          <tr>
+            <th scope="col">Time</th>
+            <td>12.00-17.00 (CEST) / 17.00-22.00 (JKT/BKK) /</td>
+          </tr>
+          <tr>
+            <th scope="col"></th>
+            <td>18.00-23.00 (HK/SG/MY) / 06.00-11.00 (NY)</td>
+          </tr>
+          <tr>
+            <th scope="col">Place</th>
+            <td><a class="btn btn-warning" target=”_blank” href="https://discord.gg/ZBzDh9" role="button">BS Battle Club Discord Server</a></td>
+          </tr>
+        </table>
+        <h2>Tournament Rules</h2>
+        <ol>
+          <li>
+            The tournament format is <b>Free Battle</b>
+            <br>This means you can battle against any player that are currently free
+            <br>You may join or leave at your convenience during the tournament period
+          </li>
+          <li>No prior registration is needed, but make sure you report your result to the provided form</li>
+          <li>Submission of result beyond 15.15 CEST will not be processed</li>
+          <li>
+            You may change parts or the entirety of your deck between matches
+          </li>
+          <li>
+            For use of Rebirth cards, you may use <b>printed</b> proxy
+            <br>*The proxy could only act as a replacement for the official checklist cards, as such it need to be switched with the original card from outside your deck when played
+            <br>*You need to inform your opponents prior to the match and use table shuffling in your last shuffle
+          </li>
+        </ol>
       </div>
     </div>
   </div>
