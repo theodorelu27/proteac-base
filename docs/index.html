@@ -8,6 +8,15 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script>
+    (function(){
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect != location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
 <link rel="stylesheet" href="styles.7fdfb321655d18a5f17c.css"></head>
 <body>
   <app-root></app-root>
