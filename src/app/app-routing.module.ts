@@ -8,7 +8,7 @@ import { BbcComponent } from './pages/bbc/bbc.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'bs-battle-club', component: BbcComponent },
-  { path: 'bs-battle-club/events/first-online-meeting', component: EventsComponent },
+  { path: 'bs-battle-club/events/first-online-tournament', component: EventsComponent },
   { path: 'tea-time-gaming', component: TtgComponent },
 ];
 
