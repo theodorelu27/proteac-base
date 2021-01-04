@@ -9,7 +9,7 @@ import { BbcComponent } from './pages/bbc/bbc.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'bs-battle-club', component: BbcComponent },
-  { path: 'bs-battle-club/events/december-online-meeting', component: EventsComponent },
+  { path: 'bs-battle-club/events/guardian-of-the-alex-tournament', component: EventsComponent },
   { path: 'tea-time-gaming', component: TtgComponent },
   { path: 'sabd', component: SandboxComponent },
 ];
