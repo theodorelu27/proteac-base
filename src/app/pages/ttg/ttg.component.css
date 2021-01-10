@@ -15,3 +15,7 @@
   overflow:hidden;
   z-index:-1;
 }
+
+.long-content {
+  overflow-y: auto;
+}

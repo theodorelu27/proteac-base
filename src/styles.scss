@@ -49,5 +49,15 @@ $proteac-base-theme: mat-light-theme((
   -o-background-size: cover;
 }
 
-html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+.mat-tab-body-content {
+  color: white;
+}
+
+.mat-tab-label-content {
+  color: white;
+}
+

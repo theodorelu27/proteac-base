@@ -16,11 +16,16 @@
   z-index:-1;
 }
 
-p {
+p, div {
   color: white;
 }
 
-h1 {
+table {
+  border-color: transparent;
+  color: white;
+}
+
+h1, h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
 }
