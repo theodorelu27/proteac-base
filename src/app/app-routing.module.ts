@@ -1,3 +1,4 @@
+import { WorldclashComponent } from './pages/worldclash/worldclash.component';
 import { SandboxComponent } from './pages/sandbox/sandbox.component';
 import { EventsComponent } from './pages/events/events.component';
 import { TtgComponent } from './pages/ttg/ttg.component';
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'bs-battle-club', component: BbcComponent },
   { path: 'bs-battle-club/events/guardian-of-the-alex-tournament', component: EventsComponent },
   { path: 'tea-time-gaming', component: TtgComponent },
+  { path: 'tea-time-gaming/world-clash', component: WorldclashComponent },
   { path: 'sabd', component: SandboxComponent },
 ];
 
