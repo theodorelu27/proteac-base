@@ -1,3 +1,4 @@
+import { GiveawayComponent } from './pages/giveaway/giveaway.component';
 import { WorldclashComponent } from './pages/worldclash/worldclash.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { CommonModule } from '@angular/common';
@@ -18,7 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomeComponent,
     BbcComponent,
     TtgComponent,
-    WorldclashComponent
+    WorldclashComponent,
+    GiveawayComponent
   ],
   imports: [
     BrowserModule,

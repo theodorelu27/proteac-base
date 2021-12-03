@@ -1,3 +1,4 @@
+import { GiveawayComponent } from './pages/giveaway/giveaway.component';
 import { WorldclashComponent } from './pages/worldclash/worldclash.component';
 import { SandboxComponent } from './pages/sandbox/sandbox.component';
 import { EventsComponent } from './pages/events/events.component';
@@ -13,7 +14,7 @@ const routes: Routes = [
   { path: 'bs-battle-club/events/team-tournament', component: EventsComponent },
   { path: 'tea-time-gaming', component: TtgComponent },
   { path: 'tea-time-gaming/world-clash', component: WorldclashComponent },
-  { path: 'sabd', component: SandboxComponent },
+  { path: 'giveaway-terms-and-condition', component: GiveawayComponent },
 ];
 
 @NgModule({
