@@ -11,7 +11,7 @@ import { BbcComponent } from './pages/bbc/bbc.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'bs-battle-club', component: BbcComponent },
-  { path: 'bs-battle-club/events/single-tournament', component: EventsComponent },
+  { path: 'bs-battle-club/events/team-tournament', component: EventsComponent },
   { path: 'tea-time-gaming', component: TtgComponent },
   { path: 'tea-time-gaming/world-clash', component: WorldclashComponent },
   { path: 'giveaway-terms-and-condition', component: GiveawayComponent },
