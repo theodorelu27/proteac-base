@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+$bootstrap-icons-font-src: url("../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2") format("woff2"), url("../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff") format("woff");
+
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+
+
+// Scroll padding for all scroll targets on page used with
+// native CSS smooth scrolling
+// 
+// https://caniuse.com/?search=scroll-padding
+
+html {
+    scroll-padding-top: 3.5rem;
+}
+
+// Header padding accounts for the height of the navbar
+header {
+    padding-top: 6rem + 3.5rem;
+    padding-bottom: 6rem;
+}
+
+// Section padding
+section {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
