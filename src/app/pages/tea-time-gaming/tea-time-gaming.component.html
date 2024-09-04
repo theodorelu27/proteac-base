@@ -112,32 +112,135 @@
             <div class="col-lg-8 mt-2 mb-3">
                 <h2>Meet the Boys</h2>
                 <div class="card-columns">
-                    <div class="card ms-2 p-3" style="width: 15rem; display: inline-block;">
+                    <div class="card ms-2 p-3" style="width: 17rem; display: inline-block;">
                         <img class="card-img-top" src="images/theo.webp" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Theodore Lu</h5>
-                            <p class="card-text">Played TCG for too long and is basically staying because of Stockholm Syndrome. Allegedly he used to win the nationals for Cardfight Vanguard in 2015 and Battle Spirits in 2019. But anything that he is today, is a husk of his former self...</p>
-                            <p><b>Main Games:</b> Battle Spirits, Battle Spirits Saga</p>
+                            <p class="card-text">Played TCG for too long and is basically kept playing because of Stockholm Syndrome. Community contributor for Battle Spirits in Indonesia.</p>
+                            <div ngbAccordion [closeOthers]="true" class="mb-3">
+                                <div ngbAccordionItem="theo-mg">
+                                    <h6 ngbAccordionHeader>
+                                        <button ngbAccordionButton>
+                                            Main Games
+                                        </button>
+                                    </h6>
+                                    <div ngbAccordionCollapse>
+                                        <div ngbAccordionBody>
+                                            <ul>
+                                                <li>Battle Spirits</li>
+                                                <li>Battle Spirits Saga</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div ngbAccordionItem="theo-ac">
+                                    <h6 ngbAccordionHeader>
+                                        <button ngbAccordionButton>
+                                            Achievements
+                                        </button>
+                                    </h6>
+                                    <div ngbAccordionCollapse>
+                                        <div ngbAccordionBody>
+                                            <ul>
+                                                <li><b>Battle Spirits Saga 2023 Season</b></li>
+                                                <ul>
+                                                    <li>Grand Open Wave 3 Utrecht - Top 16</li>
+                                                    <li>Grand Open Wave 2 Den Haag - Top 32</li>
+                                                </ul>
+                                                <li><b>Battle Spirits Indonesia National Championship 2018</b> - Champion</li>
+                                                <li><b>Cardfight!! Vanguard Asia Championship 2015</b></li>
+                                                <ul>
+                                                    <li><a href="https://cf-vanguard.com/event/report_asia_2015/" target="_blank">Asia Final - 2nd Runner Up</a></li>
+                                                    <li>Indonesia Final - Champion</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <a class="btn btn-lg btn-danger" target="_blank" href="https://www.youtube.com/teatimegamingba"><i class="bi bi-youtube"></i></a>
                             <a class="btn btn-lg btn-dark ms-1" target="_blank" href="https://x.com/spvmaster"><i class="bi bi-twitter-x"></i></a>
                         </div>
                     </div>
-                    <div class="card ms-2 p-3" style="width: 15rem; display: inline-block;">
+                    <div class="card ms-2 p-3" style="width: 17rem; display: inline-block;">
                         <img class="card-img-top" src="images/ayumu.webp" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Ayumu Seiki</h5>
-                            <p class="card-text">Played over 10+ TCGs because why not. He's one of the admins of the English Battle Spirits Wiki and is everywhere where people needed him to clarify the complicated rulings of Battle Spirits. Champion of the first ever European Battle Spirits Saga Grand Open in 2023.</p>
-                            <p><b>Main Games:</b> Battle Spirits, Pokemon TCG, Battle Spirits Saga</p>
+                            <p class="card-text">Played over 10+ TCGs because why not. He's one of the admins of the English Battle Spirits Wiki and is everywhere where people needed him to clarify stuff.</p>
+                            <div ngbAccordion [closeOthers]="true" class="mb-3">
+                                <div ngbAccordionItem="ayumu-mg">
+                                    <h6 ngbAccordionHeader>
+                                        <button ngbAccordionButton>
+                                            Main Games
+                                        </button>
+                                    </h6>
+                                    <div ngbAccordionCollapse>
+                                        <div ngbAccordionBody>
+                                            <ul>
+                                                <li>Battle Spirits</li>
+                                                <li>Pokemon TCG</li>
+                                                <li>Battle Spirits Saga</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div ngbAccordionItem="ayumu-ac">
+                                    <h6 ngbAccordionHeader>
+                                        <button ngbAccordionButton>
+                                            Achievements
+                                        </button>
+                                    </h6>
+                                    <div ngbAccordionCollapse>
+                                        <div ngbAccordionBody>
+                                            <ul>
+                                                <li><b>Battle Spirits Saga 2023 Season</b></li>
+                                                <ul>
+                                                    <li>Grand Open Wave 2 Den Haag - Top 8</li>
+                                                    <li>Grand Open Wave 1 Karlsruhe - Champion</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <a class="btn btn-lg btn-danger" target="_blank" href="https://www.youtube.com/@AyumuBSseminar"><i class="bi bi-youtube"></i></a>
                             <a class="btn btn-lg btn-dark ms-1" target="_blank" href="https://x.com/AyumuSeiki"><i class="bi bi-twitter-x"></i></a>
                         </div>
                     </div>
-                    <div class="card ms-2 p-3" style="width: 15rem; display: inline-block;">
+                    <div class="card ms-2 p-3" style="width: 17rem; display: inline-block;">
                         <img class="card-img-top" src="images/amamiya.webp" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Amamiya Akechi</h5>
                             <p class="card-text">The merrymaker that is absolute everywhere with energy that can reanimate the dead horse. That is until he remembered that he's still German on the inside.</p>
-                            <p><b>Main Games:</b> Battle Spirits, Battle Spirits Saga, Yu-Gi-Oh!</p>
+                            <div ngbAccordion [closeOthers]="true" class="mb-3">
+                                <div ngbAccordionItem="amamiya-mg">
+                                    <h6 ngbAccordionHeader>
+                                        <button ngbAccordionButton>
+                                            Main Games
+                                        </button>
+                                    </h6>
+                                    <div ngbAccordionCollapse>
+                                        <div ngbAccordionBody>
+                                            <ul>
+                                                <li>Battle Spirits</li>
+                                                <li>Battle Spirits Saga</li>
+                                                <li>Yu-Gi-Oh!</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div ngbAccordionItem="amamiya-ac">
+                                    <h6 ngbAccordionHeader>
+                                        <button ngbAccordionButton>
+                                            Achievements
+                                        </button>
+                                    </h6>
+                                    <div ngbAccordionCollapse>
+                                        <div ngbAccordionBody>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <a class="btn btn-lg btn-dark ms-1" target="_blank" href="https://x.com/AmamiyaAkechi"><i class="bi bi-twitter-x"></i></a>
                         </div>
                     </div>
